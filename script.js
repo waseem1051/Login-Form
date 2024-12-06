@@ -28,7 +28,7 @@ $(document).ready(function() {
         } else {
             $('#errorMessage').addClass('d-none');
             //alert(`Logged in successfully! Remember Me: ${rememberMe}`);
-            window.location.href = 'success.html';
+            window.location.href = './sub/success.html';
         }
     });
 });
